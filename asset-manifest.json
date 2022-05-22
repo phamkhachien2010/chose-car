@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/chose-car/static/css/main.31d6cfe0.css",
+    "main.js": "/chose-car/static/js/main.22f9fcd0.js",
+    "static/js/787.0c96418a.chunk.js": "/chose-car/static/js/787.0c96418a.chunk.js",
+    "index.html": "/chose-car/index.html",
+    "main.22f9fcd0.js.map": "/chose-car/static/js/main.22f9fcd0.js.map",
+    "787.0c96418a.chunk.js.map": "/chose-car/static/js/787.0c96418a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.22f9fcd0.js"
+  ]
+}
