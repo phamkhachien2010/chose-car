@@ -1,0 +1,15 @@
+.content {
+    background-image: url(../../public/background/avengers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.film__item {
+    text-align: center;
+    color: white;
+    background-color: rgba(87, 83, 149);
+}

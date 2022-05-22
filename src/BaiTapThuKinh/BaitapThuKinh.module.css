@@ -1,0 +1,55 @@
+.content {
+    background-image: url('../../public/glassesImage/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.bg__overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.model__item {
+    background-image: url(../../public/glassesImage/model.jpg);
+    width: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.glassesOverlay__img {
+    position: absolute;
+    opacity: 0.9;
+    top: 25%;
+    left: 19%;
+    width: 300px;
+}
+
+.glasses__info {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(211, 147, 29, 0.4);
+}
+
+@keyframes animChangeGlasses {
+    from {
+        width: 0;
+    }
+    to {
+        width: 300px;
+    }
+}
+
+.glasses__style {
+    width: 250px;
+    animation: animChangeGlasses;
+    animation-duration: 1s;
+}
